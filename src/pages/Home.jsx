@@ -1,0 +1,65 @@
+import Section from "../components/ui/Section.jsx";
+import Container from "../components/ui/Container.jsx";
+import Button from "../components/ui/Button.jsx";
+import TechStack from "../components/TechStack.jsx";
+import Projects from "../sections/Projects.jsx";
+
+export default function Home() {
+  return (
+    <div>
+      <Section
+        as="section"
+        aria-labelledby="intro-heading"
+        className="min-h-[80vh] grid place-items-center bg-gradient-to-b from-[#0a0a0b] to-[#1a1a1d]"
+      >
+        <Container>
+          <div className="grid lg:grid-cols-3 gap-8 lg:gap-12 items-center">
+            {/* Text content - 2/3rds */}
+            <div className="lg:col-span-2 text-center lg:text-left">
+              <h1 id="intro-heading" className="heading-hero">
+                Hi, my name is Ronni Grandberry. I create things for the web
+              </h1>
+              <h2 className="mt-4 max-w-prose lg:mx-0 mx-auto body-large">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                interdum urna quis magna lobortis, eget finibus urna vestibulum.
+                Sed nec ex non justo dictum venenatis. Fusce nec purus nec
+                mauris posuere malesuada
+              </h2>
+              {/* CTA Buttons */}
+              <div className="mt-8 flex flex-wrap lg:justify-start justify-center gap-4">
+                <Button
+                  as="a"
+                  href="/portfolio"
+                  aria-label="Check our my work"
+                  variant="primary"
+                >
+                  Check out my work
+                </Button>
+                <Button
+                  as="a"
+                  href="/resume"
+                  aria-label="Downlowd my resume"
+                  variant="secondary"
+                >
+                  Download my resume
+                </Button>
+              </div>
+            </div>
+            {/* Circular Image - 1/3rd */}
+            <div className="lg:col-span-1 flex justify-center lg:justify-end">
+              <div className="w-64 h-64 lg:w-80 lg:h-80 card-avatar">
+                <img
+                  src="https://picsum.photos/320?random=100"
+                  alt="Ronni Grandberry"
+                  className="w-full h-full object-cover"
+                ></img>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </Section>
+      <TechStack />
+      <Projects />
+    </div>
+  );
+}

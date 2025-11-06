@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Container from "../ui/Container.jsx";
+import Button from "../ui/Button.jsx";
 import { NavLink } from "react-router-dom";
 
 const links = [
@@ -40,9 +41,15 @@ export default function Navbar() {
         </nav>
         {/* Right: CTA / mobile button */}
         <div className="flex-1 flex justify-end">
-          <a href="/contact" className="text-white/80">
+          <Button
+            as="a"
+            href="/contact"
+            variant="primary"
+            size="sm"
+            className="hidden md:inline-flex"
+          >
             Contact Me
-          </a>
+          </Button>
         </div>
       </Container>
     </header>
