@@ -1,7 +1,7 @@
 import Section from "../components/ui/Section.jsx";
 import Container from "../components/ui/Container.jsx";
 import Button from "../components/ui/Button.jsx";
-import TechStack from "../components/TechStack.jsx";
+import TechStack from "../sections/TechStack.jsx";
 import Projects from "../sections/Projects.jsx";
 
 export default function Home() {
@@ -59,7 +59,7 @@ export default function Home() {
         </Container>
       </Section>
       <TechStack />
-      <Projects />
+      <Projects limit={6} />
     </div>
   );
 }
