@@ -34,4 +34,11 @@ export const techstack = [
     iconId: "tailwind",
     color: "#06B6D4",
   },
+  {
+    id: "photoshop",
+    label: "Photoshop",
+    href: "https://urlhere.com",
+    iconId: "photoshop",
+    color: " #ED2224",
+  },
 ];

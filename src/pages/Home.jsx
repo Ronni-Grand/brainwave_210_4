@@ -22,10 +22,16 @@ export default function Home() {
                 Hi, my name is Ronni Grandberry. I create things for the web
               </h1>
               <h2 className="mt-4 max-w-prose lg:mx-0 mx-auto body-large">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                interdum urna quis magna lobortis, eget finibus urna vestibulum.
-                Sed nec ex non justo dictum venenatis. Fusce nec purus nec
-                mauris posuere malesuada
+                I’m Ronni, a curious and driven individual who thrives on
+                learning, creating, and connecting with others. Whether I’m
+                exploring new ideas, tackling challenges, or sharing knowledge,
+                I bring a thoughtful and enthusiastic approach to everything I
+                do. My interests span across [photography, technology, design,
+                community work, traveling or entrepreneurship], and I’m
+                motivated by the opportunity to grow while making a positive
+                impact. I value authenticity, creativity, and collaboration, and
+                I’m always excited to discover new ways to contribute and
+                inspire those around me.
               </h2>
               {/* CTA Buttons */}
               <div className="mt-8 flex flex-wrap lg:justify-start justify-center gap-4">
