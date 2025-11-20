@@ -278,10 +278,10 @@ export default function Contact() {
             </a>
             <span className="hidden sm:block text-white/30">•</span>
             <a
-              href="tel:+1-816-000-000"
+              href="tel:+1-816-617-2540"
               className="text-white/80 hover:text-white transition"
             >
-              (816) 000-0000
+              (816) 617-2540
             </a>
           </div>
         </div>

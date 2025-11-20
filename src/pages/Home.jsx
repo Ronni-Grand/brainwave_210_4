@@ -12,7 +12,7 @@ export default function Home() {
       <Section
         as="section"
         aria-labelledby="intro-heading"
-        className="min-h-[80vh] grid place-items-center bg-gradient-to-b from-[#0a0a0b] to-[#1a1a1d]"
+        className="min-h-[80vh] grid place-items-center bg-gradient-to-b from-[#7575df] to-[#080869]"
       >
         <Container>
           <div className="grid lg:grid-cols-3 gap-8 lg:gap-12 items-center">
@@ -22,16 +22,21 @@ export default function Home() {
                 Hi, my name is Ronni Grandberry. I create things for the web
               </h1>
               <h2 className="mt-4 max-w-prose lg:mx-0 mx-auto body-large">
-                I’m Ronni, a curious and driven individual who thrives on
-                learning, creating, and connecting with others. Whether I’m
-                exploring new ideas, tackling challenges, or sharing knowledge,
-                I bring a thoughtful and enthusiastic approach to everything I
-                do. My interests span across [photography, technology, design,
-                community work, traveling or entrepreneurship], and I’m
-                motivated by the opportunity to grow while making a positive
-                impact. I value authenticity, creativity, and collaboration, and
-                I’m always excited to discover new ways to contribute and
-                inspire those around me.
+                Welcome to Ronni Grand Photography & Creative Solutions At Ronni
+                Grand Photography, I capture more than just images—I tell
+                stories. My lens focuses on lifestyle and branding photography
+                that empowers individuals and businesses to showcase their
+                authentic selves with confidence and style. Every shot is
+                crafted to highlight representation, beauty, and the unique
+                essence of each client. But creativity doesn’t stop at the
+                camera. As I expand into web development, I now offer clients a
+                seamless digital presence to match their visual identity. From
+                stunning photographs to interactive, user-friendly websites, I
+                provide a complete creative solution that elevates your brand
+                both visually and online. Whether you’re an entrepreneur, a
+                growing business, or someone ready to step into your spotlight,
+                I’m here to help you shine—through powerful imagery and
+                innovative web experiences.
               </h2>
               {/* CTA Buttons */}
               <div className="mt-8 flex flex-wrap lg:justify-start justify-center gap-4">

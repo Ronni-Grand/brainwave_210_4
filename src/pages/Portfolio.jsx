@@ -1,4 +1,5 @@
 import Projects from "../sections/Projects.jsx";
+import SEO from "../components/ui/SEO.jsx";
 
 export default function Portfolio() {
   return (

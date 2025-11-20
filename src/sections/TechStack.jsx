@@ -8,6 +8,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiAdobephotoshop } from "react-icons/si";
+import { TbBrandAdobeIllustrator } from "react-icons/tb";
+import { DiIllustrator } from "react-icons/di";
 
 const iconMap = {
   html5: FaHtml5,
@@ -16,6 +18,7 @@ const iconMap = {
   react: FaReact,
   tailwind: RiTailwindCssFill,
   photoshop: SiAdobephotoshop,
+  illustrator: DiIllustrator,
 };
 
 export default function TechStack() {

@@ -64,7 +64,7 @@ export const projects = [
     ],
 
     //Optional additional fields you might want to add:
-    role: "Frong-end Developer",
+    role: "Front-end Developer",
     tools: "React, CSS3, JavaScript, HTML5",
     client: "ACME Corp",
     liveURL: "https;//www.acme.com",

@@ -39,6 +39,13 @@ export const techstack = [
     label: "Photoshop",
     href: "https://urlhere.com",
     iconId: "photoshop",
-    color: " #ED2224",
+    color: "#7393B3",
+  },
+  {
+    id: "illustrator",
+    label: "Illustrator",
+    href: "https://urlhere.com",
+    iconId: "illustrator",
+    color: "#ED2224",
   },
 ];
