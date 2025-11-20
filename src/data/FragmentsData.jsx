@@ -2,9 +2,9 @@ export const fragments = {
   content: (
     <>
       <h1 className="heading-page">
-        This data is coming from FragmentsData.jsx{" "}
+        This data is coming from FragmentsData.jsx
       </h1>
-      <h2 className=""
+
       <p>This is a paragraph</p>
       <quote>Thisis another paragraph</quote>
       <ul>
