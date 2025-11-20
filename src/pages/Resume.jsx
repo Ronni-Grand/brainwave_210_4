@@ -1,7 +1,7 @@
 import Section from "../components/ui/Section.jsx";
 import Container from "../components/ui/Container.jsx";
 import SEO from "../components/ui/SEO.jsx";
-import Resume from "C:/Users/ronne/Downloads/ronni_grandberry_resume.pdf";
+
 
 export default function Resume() {
   return (
