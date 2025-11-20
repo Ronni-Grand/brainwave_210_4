@@ -15,7 +15,7 @@ export default function Resume() {
           <h1 className="heading-page">My Resume</h1>
           <p className="mt-2 body-default">Placeholder content</p>
           <iframe
-            src="/ronni_grandberry_resume.pdf"
+            src="/Downloads/ronni_grandberry_resume.pdf"
             width="100%"
             height="800px"
             title="Ronni Grandberry Resume"
@@ -23,7 +23,7 @@ export default function Resume() {
           >
             <p>
               Your browser does not support iframes.{" "}
-              <a href="file:///C:/Users/ronne/Downloads/ronni_grandberry_resume.pdf">
+              <a href="/Downloads/ronni_grandberry_resume.pdf">
                 Click here to view the PDF directly.
               </a>
             </p>
