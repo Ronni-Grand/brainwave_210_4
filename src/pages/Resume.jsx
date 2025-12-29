@@ -16,7 +16,7 @@ export default function Resume() {
           <h1 className="heading-page">My Resume</h1>
           <p className="mt-2 body-default">Placeholder content</p>
           <iframe
-            src="/ronni_grandberry_resume.pdf"
+            src="/resume.pdf"
             width="100%"
             height="800px"
             title="Ronni Grandberry Resume"
