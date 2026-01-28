@@ -24,7 +24,7 @@ export default function Resume() {
           >
             <p>
               Your browser does not support iframes.{" "}
-              <a href="/ronni_grandberry_resume.pdf">
+              <a href="/ronnigrandberryresume.docx">
                 Click here to view the PDF directly.
               </a>
             </p>
