@@ -62,7 +62,7 @@ export default function Home() {
             <div className="lg:col-span-1 flex justify-center lg:justify-end">
               <div className="w-64 h-64 lg:w-80 lg:h-80 card-avatar">
                 <img
-                  src="https://picsum.photos/320?random=100"
+                  "image placeholder"
                   alt="Ronni Grandberry"
                   className="w-full h-full object-cover"
                 ></img>
