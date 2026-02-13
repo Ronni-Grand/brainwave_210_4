@@ -61,10 +61,10 @@ export default function Home() {
             {/* Circular Image - 1/3rd */}
             <div className="lg:col-span-1 flex justify-center lg:justify-end">
               <div className="w-64 h-64 lg:w-80 lg:h-80 card-avatar">
-                <img
-                  src="C:/0G4A9316.jpg"
-                  alt="Ronni Grandberry"
-                  className="w-full h-full object-cover"
+                <img 
+                    alt="Ronni Grandberry" 
+                    class="w-full h-full object-cover" 
+                    src="C:/0G4A9316.jpg"
                 ></img>
               </div>
             </div>
