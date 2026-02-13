@@ -50,7 +50,7 @@ export default function Home() {
                 </Button>
                 <Button
                   as="a"
-                  href="/resume"
+                  href="///C:/Users/ronne/Downloads/ronni_grandberry_resume.pdf"
                   aria-label="Downlowd my resume"
                   variant="secondary"
                 >
