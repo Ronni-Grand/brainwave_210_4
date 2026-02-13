@@ -1,4 +1,4 @@
-import Section from "../components/ui/Section.jsx";
+haimport Section from "../components/ui/Section.jsx";
 import Container from "../components/ui/Container.jsx";
 import SEO from "../components/ui/SEO.jsx";
 
@@ -16,7 +16,7 @@ export default function Resume() {
           <h1 className="heading-page">My Resume</h1>
           <p className="mt-2 body-default">Placeholder content</p>
           <iframe
-            src="/resume.pdf"
+            src="/resume.docx"
             width="100%"
             height="800px"
             title="Ronni Grandberry Resume"
@@ -24,7 +24,7 @@ export default function Resume() {
           >
             <p>
               Your browser does not support iframes.{" "}
-              <a href="/ronnigrandberryresume.docx">
+              <a href="/ronnesha grandberry resume.docx">
                 Click here to view the PDF directly.
               </a>
             </p>
