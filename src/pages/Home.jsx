@@ -64,7 +64,7 @@ export default function Home() {
                 <img 
                     alt="Ronni Grandberry" 
                     class="w-full h-full object-cover" 
-                    src="C:/0G4A9316.jpg"
+                    src="/images/0G4A9316.jpg""
                 ></img>
               </div>
             </div>
